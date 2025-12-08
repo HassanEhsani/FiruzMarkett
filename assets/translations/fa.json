@@ -1,0 +1,49 @@
+{
+  "dashboard": "داشبورد",
+  "dashboard_title": "پنل مدیریت",
+
+  "products": "محصولات",
+  "product_list": "لیست محصولات",
+  "add_product": "افزودن محصول",
+  "edit_product": "ویرایش محصول",
+  "delete_product": "حذف محصول",
+
+  "categories": "دسته‌بندی‌ها",
+  "add_category": "افزودن دسته‌بندی",
+
+  "orders": "سفارش‌ها",
+  "order_list": "لیست سفارش‌ها",
+
+  "ads": "تبلیغات",
+  "banners": "بنرها",
+
+  "title": "عنوان",
+  "price": "قیمت",
+  "category": "دسته‌بندی",
+  "category_id": "شناسه دسته‌بندی",
+  "category_mobile": "موبایل",
+  "category_laptop": "لپ‌تاپ",
+  "category_watch": "ساعت",
+  "all": "همه",
+
+  "description": "توضیحات",
+  "stock": "موجودی",
+
+  "image": "تصویر",
+  "actions": "عملیات",
+
+  "prev": "قبلی",
+  "next": "بعدی",
+  "page": "صفحه",
+
+  "select_image": "انتخاب تصویر",
+  "uploading_image": "در حال بارگذاری تصویر...",
+
+  "save": "ذخیره",
+  "cancel": "انصراف",
+  "search": "جستجو",
+
+  "language": "زبان",
+  "no_items": "آیتمی یافت نشد",
+  "id": "شناسه"
+}

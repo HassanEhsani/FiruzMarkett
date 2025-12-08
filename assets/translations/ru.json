@@ -1,0 +1,49 @@
+{
+  "dashboard": "Панель",
+  "dashboard_title": "Админ Панель",
+
+  "products": "Товары",
+  "product_list": "Список товаров",
+  "add_product": "Добавить товар",
+  "edit_product": "Редактировать товар",
+  "delete_product": "Удалить товар",
+
+  "categories": "Категории",
+  "add_category": "Добавить категорию",
+
+  "orders": "Заказы",
+  "order_list": "Список заказов",
+
+  "ads": "Реклама",
+  "banners": "Баннеры",
+
+  "title": "Название",
+  "price": "Цена",
+  "category": "Категория",
+  "category_id": "ID категории",
+  "category_mobile": "Телефоны",
+  "category_laptop": "Ноутбуки",
+  "category_watch": "Часы",
+  "all": "Все",
+
+  "description": "Описание",
+  "stock": "Количество",
+
+  "image": "Изображение",
+  "actions": "Действия",
+
+  "prev": "Назад",
+  "next": "Далее",
+  "page": "Страница",
+
+  "select_image": "Выбрать изображение",
+  "uploading_image": "Загрузка изображения...",
+
+  "save": "Сохранить",
+  "cancel": "Отмена",
+  "search": "Поиск",
+
+  "language": "Язык",
+  "no_items": "Ничего не найдено",
+  "id": "ID"
+}

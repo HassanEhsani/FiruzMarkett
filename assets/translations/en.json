@@ -1,0 +1,49 @@
+{
+  "dashboard": "Dashboard",
+  "dashboard_title": "Admin Panel",
+
+  "products": "Products",
+  "product_list": "Product List",
+  "add_product": "Add Product",
+  "edit_product": "Edit Product",
+  "delete_product": "Delete Product",
+
+  "categories": "Categories",
+  "add_category": "Add Category",
+
+  "orders": "Orders",
+  "order_list": "Order List",
+
+  "ads": "Advertisements",
+  "banners": "Banners",
+
+  "title": "Title",
+  "price": "Price",
+  "category": "Category",
+  "category_id": "Category ID",
+  "category_mobile": "Mobile",
+  "category_laptop": "Laptop",
+  "category_watch": "Watch",
+  "all": "All",
+
+  "description": "Description",
+  "stock": "Stock",
+
+  "image": "Image",
+  "actions": "Actions",
+
+  "prev": "Previous",
+  "next": "Next",
+  "page": "Page",
+
+  "select_image": "Select Image",
+  "uploading_image": "Uploading image...",
+
+  "save": "Save",
+  "cancel": "Cancel",
+  "search": "Search",
+
+  "language": "Language",
+  "no_items": "No items found",
+  "id": "ID"
+}
