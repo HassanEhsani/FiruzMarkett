@@ -1,8 +1,8 @@
-// lib/admin/products/controllers/product_form_controller.dart
+// lib/admin/features/products/presentation/controllers/product_form_controller.dart
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
-import '../../models/admin_product_model.dart';
-import '../services/admin_product_service.dart';
+import '../../data/models/admin_product_model.dart';
+import '../../data/services/admin_product_service.dart';
 
 class ProductFormController extends ChangeNotifier {
   final AdminProductService service = AdminProductService();
@@ -30,6 +30,7 @@ class ProductFormController extends ChangeNotifier {
     return url;
   }
 
+  /// existing: مدل فعلی (برای ویرایش)، model: اطلاعات از فرم (title, price, ...)
   Future<bool> saveProduct({AdminProductModel? existing, required AdminProductModel model}) async {
     loading = true;
     notifyListeners();
@@ -55,7 +56,8 @@ class ProductFormController extends ChangeNotifier {
       if (existing == null || existing.id.isEmpty) {
         ok = await service.addProduct(finalModel);
       } else {
-        ok = await service.updateProduct(existing.id, finalModel as Map<String, dynamic>);
+        // updateProduct در سرویس انتظار map دارد: پس ضمناً toMap فرستاده می‌شود
+        ok = await service.updateProduct(existing.id, finalModel.toMap());
       }
 
       loading = false;

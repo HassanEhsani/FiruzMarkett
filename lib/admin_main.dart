@@ -1,16 +1,16 @@
 // lib/admin_main.dart
 import 'package:easy_localization/easy_localization.dart';
-import 'package:firuz_market/admin/banners/pages/banners_list_page.dart';
-import 'package:firuz_market/admin/categories/pages/categories_list_page.dart';
-import 'package:firuz_market/admin/dashboard/pages/admin_dashboard_page.dart';
-import 'package:firuz_market/admin/dashboard/pages/admin_dashboard_screen.dart';
+import 'package:firuz_market/admin/features/banners/presentation/pages/banners_list_page.dart';
+import 'package:firuz_market/admin/features/categories/presentation/pages/categories_list_page.dart';
+import 'package:firuz_market/admin/features/dashboard/presentation/pages/admin_dashboard_page.dart';
+import 'package:firuz_market/admin/features/dashboard/presentation/pages/admin_dashboard_screen.dart';
 import 'package:firuz_market/admin/layout/admin_layout.dart';
 import 'package:firuz_market/admin/pages/products/products_page.dart';
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 
-import 'admin/auth/pages/admin_login_page.dart';
+import 'admin/features/auth/presentation/pages/admin_login_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

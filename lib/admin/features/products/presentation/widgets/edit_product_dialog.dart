@@ -2,8 +2,8 @@
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
-import '../services/admin_product_service.dart';
-import '../../models/admin_product_model.dart';
+import '../../data/services/admin_product_service.dart';
+import '../../data/models/admin_product_model.dart';
 
 class EditProductDialog extends StatefulWidget {
   final AdminProductModel product;

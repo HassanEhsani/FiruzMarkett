@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import '../models/admin_product_model.dart';
+import '../features/products/data/models/admin_product_model.dart';
 
 class ProductsService {
   final SupabaseClient supabase = Supabase.instance.client;

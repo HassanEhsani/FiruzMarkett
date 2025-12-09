@@ -4,7 +4,7 @@ import '../pages/dashboard/dashboard_page.dart';
 import '../pages/products/products_page.dart';
 import '../pages/categories/categories_page.dart';
 import '../pages/banners/banners_page.dart';
-import '../products/pages/add_edit_product_page.dart';
+import '../features/products/presentation/pages/add_edit_product_page.dart';
 
 class AdminRoutes {
   static Map<String, WidgetBuilder> routes = {

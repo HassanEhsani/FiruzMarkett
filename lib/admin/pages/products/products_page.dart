@@ -3,9 +3,9 @@ import 'dart:typed_data';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
-import '../../models/admin_product_model.dart';
-import '../../products/services/admin_product_service.dart';
-import '../../products/widgets/edit_product_dialog.dart';
+import '../../features/products/data/models/admin_product_model.dart';
+import '../../features/products/data/services/admin_product_service.dart';
+import '../../features/products/presentation/widgets/edit_product_dialog.dart';
 
 class ProductsPage extends StatefulWidget {
   const ProductsPage({super.key});

@@ -1,7 +1,7 @@
 // lib/admin/products/pages/add_edit_product_page.dart
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import '../../models/admin_product_model.dart';
+import '../../data/models/admin_product_model.dart';
 import '../widgets/product_form.dart';
 
 class AddEditProductPage extends StatelessWidget {
